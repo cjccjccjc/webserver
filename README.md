@@ -3,7 +3,7 @@ LinuxWebSever
 
 ![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/ubuntu-16.04-blue) ![](https://img.shields.io/badge/MySQL-5.7.29-blue)  ![](https://img.shields.io/badge/cmake-3.21-blue)
 
-**开源地址**：https://github.com/YDLinStars/LinuxWebServer
+
 
 **技术栈**
 
@@ -13,7 +13,7 @@ LinuxWebSever
 - `多路IO复用(epoll)`知识
 - `线程同步机制`
 - `线程池`、`数据库连接池`
-- [`layui前端框架`] 可选 非必要
+
 
 # 1 概述
 
@@ -198,24 +198,6 @@ VSCode
 
 ## （3） 压力测试
 
-压力测试的安装：
-
-> sudo apt-get install exuberant-ctags 
->
-> cd webbench.1.5
->
-> sudo  make && make install
-
-安装成功：
-
-> root@ubuntu:/home/ydlin/Desktop/LinuxWebServer/test_presure/webbench-1.5# make && make install
-> make: Nothing to be done for 'all'.
-> install -s webbench /usr/local/bin
-> install -m 644 webbench.1 /usr/local/man/man1
-> install -d /usr/local/share/doc/webbench
-> install -m 644 debian/copyright /usr/local/share/doc/webbench
-> install -m 644 debian/changelog /usr/local/share/doc/webbench
-> root@ubuntu:/home/ydlin/Desktop/LinuxWebServer/test_presure/webbench-1.5# which webbench
 
 压力测试的参数：
 
@@ -261,7 +243,7 @@ LT + LT，93251 QPS
 
 ![image-20220601233323555](https://ydlin.oss-cn-guangzhou.aliyuncs.com/blog-img/image-20220601233323555.png)
 
-### (5)轮播图
+### (5)图片
 
 做了一个轮播图
 
@@ -271,36 +253,3 @@ LT + LT，93251 QPS
 
 ![image-20220601233429685](https://ydlin.oss-cn-guangzhou.aliyuncs.com/blog-img/image-20220601233429685.png)
 
-# 5 关键技术
-
-关键的技术实现主要有一下几个方面，同时将响应的笔记整理到了对应的博客地址里面，有需要的小伙伴可以点开来看看欧，有惊喜！
-
-## （1）如何接收请求
-
-https://ydlin.blog.csdn.net/article/details/125090338
-
-## （2）如何处理请求报文
-
-https://ydlin.blog.csdn.net/article/details/125090379
-
-## （3）如何响应请求
-
-https://ydlin.blog.csdn.net/article/details/125090441
-
-## （4）数据库连接池以及登录注册
-
-https://ydlin.blog.csdn.net/article/details/125090469
-
-## （5）同步异步日志系统设计
-
-https://ydlin.blog.csdn.net/article/details/125090506
-
-## （6）压力测试与服务器优化思考
-
-https://ydlin.blog.csdn.net/article/details/125090546
-
-# 6 学习资料
-
-- TCP/IP网络编程
-- Linux高性能服务器编程---游双
-- 社长的[WebServer](https://github.com/qinguoyi/TinyWebServer)
